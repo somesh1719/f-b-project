@@ -122,6 +122,9 @@ USE_TZ = True
 CORS_ALLOWED_ORIGINS = [
     "http://db:5173",
     "http://127.0.0.1:5173",
+    "http://db:8000",
+    "http://43.205.206.99:8000",
+    "http://43.205.206.99:5173",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
